@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 public class Activity3 extends AppCompatActivity {
 
-    Button but1, but2;
+    Button but1, but2, showDevices;
     private WifiManager wifi;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +22,7 @@ public class Activity3 extends AppCompatActivity {
 
         but1 = findViewById(R.id.on);
         but2 = findViewById(R.id.off);
+        showDevices = findViewById(R.id.showdevices);
 
         but1.setOnClickListener(new View.OnClickListener() {
             @Override

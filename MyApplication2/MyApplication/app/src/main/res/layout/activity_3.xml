@@ -31,4 +31,13 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="231dp"
         android:text="wifi-direct off" />
+
+    <Button
+        android:id="@+id/showdevices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="171dp"
+        android:text="show devices" />
 </RelativeLayout>
